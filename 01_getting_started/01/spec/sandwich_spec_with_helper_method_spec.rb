@@ -1,5 +1,6 @@
+Sandwich = Struct.new(:taste, :toppings)
+
 RSpec.describe 'An ideal sandwich' do
-  Sandwich = Struct.new(:taste, :toppings)
   def sandwich
     # Remember to memoize the variable
     @sandwich ||= Sandwich.new('delicious', [])
