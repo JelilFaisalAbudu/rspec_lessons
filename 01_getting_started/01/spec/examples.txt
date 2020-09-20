@@ -1,0 +1,12 @@
+example_id                                           | status | run_time        |
+---------------------------------------------------- | ------ | --------------- |
+./spec/coffee_spec.rb[1:1]                           | passed | 0.00129 seconds |
+./spec/coffee_spec.rb[1:2:1]                         | passed | 0.00131 seconds |
+./spec/sandwich_spec.rb[1:1]                         | passed | 0.00046 seconds |
+./spec/sandwich_spec.rb[1:2]                         | passed | 0.00385 seconds |
+./spec/sandwich_spec_with_before_hook_spec.rb[1:1]   | passed | 0.00022 seconds |
+./spec/sandwich_spec_with_before_hook_spec.rb[1:2]   | passed | 0.00027 seconds |
+./spec/sandwich_spec_with_helper_method_spec.rb[1:1] | passed | 0.00017 seconds |
+./spec/sandwich_spec_with_helper_method_spec.rb[1:2] | passed | 0.00025 seconds |
+./spec/sandwich_spec_with_let_spec.rb[1:1]           | passed | 0.0002 seconds  |
+./spec/sandwich_spec_with_let_spec.rb[1:2]           | passed | 0.00028 seconds |
